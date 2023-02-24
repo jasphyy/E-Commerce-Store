@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matta\\Desktop\\Ecommerce\\Ecommerce.Service\\Ecommerce.Service\\Ecommerce.Service.csproj": {}
+    "D:\\GitHub\\E-Commerce\\Ecommerce.Service\\Ecommerce.Service\\Ecommerce.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matta\\Desktop\\Ecommerce\\Ecommerce.Service\\Ecommerce.Service\\Ecommerce.Service.csproj": {
+    "D:\\GitHub\\E-Commerce\\Ecommerce.Service\\Ecommerce.Service\\Ecommerce.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matta\\Desktop\\Ecommerce\\Ecommerce.Service\\Ecommerce.Service\\Ecommerce.Service.csproj",
+        "projectUniqueName": "D:\\GitHub\\E-Commerce\\Ecommerce.Service\\Ecommerce.Service\\Ecommerce.Service.csproj",
         "projectName": "Ecommerce.Service",
-        "projectPath": "C:\\Users\\matta\\Desktop\\Ecommerce\\Ecommerce.Service\\Ecommerce.Service\\Ecommerce.Service.csproj",
-        "packagesPath": "C:\\Users\\matta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matta\\Desktop\\Ecommerce\\Ecommerce.Service\\Ecommerce.Service\\obj\\",
+        "projectPath": "D:\\GitHub\\E-Commerce\\Ecommerce.Service\\Ecommerce.Service\\Ecommerce.Service.csproj",
+        "packagesPath": "C:\\Users\\ItsKi\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\E-Commerce\\Ecommerce.Service\\Ecommerce.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ItsKi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
