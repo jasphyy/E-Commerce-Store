@@ -1,4 +1,4 @@
-namespace Ecommerce.Service
+namespace Ecommerce.Service.Main
 {
     public class WeatherForecast
     {
