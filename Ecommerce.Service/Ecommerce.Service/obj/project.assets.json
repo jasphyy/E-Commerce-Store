@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matta\\Desktop\\Ecommerce\\Ecommerce.Service\\Ecommerce.Service\\Ecommerce.Service.csproj",
+      "projectUniqueName": "C:\\Users\\matta\\Desktop\\Code\\Ecommerce\\Ecommerce.Service\\Ecommerce.Service\\Ecommerce.Service.csproj",
       "projectName": "Ecommerce.Service",
-      "projectPath": "C:\\Users\\matta\\Desktop\\Ecommerce\\Ecommerce.Service\\Ecommerce.Service\\Ecommerce.Service.csproj",
+      "projectPath": "C:\\Users\\matta\\Desktop\\Code\\Ecommerce\\Ecommerce.Service\\Ecommerce.Service\\Ecommerce.Service.csproj",
       "packagesPath": "C:\\Users\\matta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matta\\Desktop\\Ecommerce\\Ecommerce.Service\\Ecommerce.Service\\obj\\",
+      "outputPath": "C:\\Users\\matta\\Desktop\\Code\\Ecommerce\\Ecommerce.Service\\Ecommerce.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matta\\AppData\\Roaming\\NuGet\\NuGet.Config",
