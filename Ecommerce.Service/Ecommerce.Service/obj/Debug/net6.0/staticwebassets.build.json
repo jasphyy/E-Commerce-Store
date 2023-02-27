@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "ySOZ1D6Qodwgw3Ndn8s+UUDcEIWwx5fTwkek+sXbzdg=",
-  "Source": "Ecommerce.Service",
-  "BasePath": "_content/Ecommerce.Service",
+  "Hash": "rKurGjWumsn9TOjF4hFwJmSNum9tNPOha1X4rBOpi4A=",
+  "Source": "Ecommerce.Service.Main",
+  "BasePath": "_content/Ecommerce.Service.Main",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
