@@ -1,4 +1,4 @@
-﻿using Ecommerce.Service.Entities;
+﻿using Ecommerce.Service.Entities.Entities;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -12,7 +12,6 @@ namespace Ecommerce.Service.DataModel.EntityConfiguration
 {
     internal class ListingConfigurationBuilder : BaseConfigurationBuilder<Listings>
     {
-
         public ListingConfigurationBuilder(Type valueGeneratorType)
             : base(valueGeneratorType)
         {
@@ -20,7 +19,7 @@ namespace Ecommerce.Service.DataModel.EntityConfiguration
         public override void Configure(EntityTypeBuilder<Listings> builder)
         {
             builder
-                .Property(x => x.Id)
+                .Property(x => x.ListingId)
                 .IsRequired();
 
             builder
@@ -29,15 +28,32 @@ namespace Ecommerce.Service.DataModel.EntityConfiguration
                 .IsRequired();
 
             builder
-                .Property(x => x.Price);
+                .Property(x => x.Price)
+                .IsRequired();
 
             builder
-                .Property(x => x.Date)
+                .Property(x => x.Description)
+                .HasMaxLength(255);
+
+            builder
+                .Property(x => x.DeliveryMethod)
+                .IsRequired();
+
+            builder
+                .Property(x => x.IsActive)
+                .IsRequired();
+
+            builder 
+                .Property(x => x.Status)
+                .IsRequired();
+
+            builder
+                .Property(x => x.DateCreated)
                 .HasValueGenerator<DateTimeOffsetValueGenerator>()
                 .ValueGeneratedOnAdd();
 
             builder
-                .HasKey(x => x.Id);
+                .HasKey(x => x.ListingId);
         }
     }
 }
