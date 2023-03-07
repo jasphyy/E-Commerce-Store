@@ -1,5 +1,5 @@
 ﻿using Ecommerce.Service.DataModel.EntityConfiguration;
-using Ecommerce.Service.Entities;
+using Ecommerce.Service.Entities.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
